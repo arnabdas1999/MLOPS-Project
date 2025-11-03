@@ -1,5 +1,5 @@
 # Use a Python base image that supports your target OS (Debian Buster in this case)
-FROM python:3.10-slim-buster
+FROM python:3.10-slim
 
 # Set the working directory for subsequent commands
 WORKDIR /app
