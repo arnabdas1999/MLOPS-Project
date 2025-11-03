@@ -1,0 +1,28 @@
+[2025-11-03 16:19:54,692] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-03 16:19:54,707] 107 dagshub  - INFO - Accessing as arnabdas1999
+[2025-11-03 16:19:55,278] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/arnabdas1999/MLOPS-Project "HTTP/1.1 200 OK"
+[2025-11-03 16:19:55,639] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-03 16:19:55,639] 107 dagshub  - INFO - Initialized MLflow to track repo "arnabdas1999/MLOPS-Project"
+[2025-11-03 16:19:55,639] 107 dagshub  - INFO - Repository arnabdas1999/MLOPS-Project initialized!
+[2025-11-03 16:20:13,799] 42 root  - INFO - Start data Ingestion
+[2025-11-03 16:20:45,344] 59 root  - INFO - Performed train test split on the dataframe
+[2025-11-03 16:20:45,344] 60 root  - INFO - exited the split_data_as_train_test method of Data Ingestion class
+[2025-11-03 16:20:45,344] 63 root  - INFO - exporting train and test file path
+[2025-11-03 16:20:45,396] 66 root  - INFO - exported train and test file path
+[2025-11-03 16:20:45,396] 45 root  - INFO - Data Ingestion completed and artifact: DataIngestionArtifact(trained_file_path='artifacts\\11_03_2025_16_20_13\\data_ingestion\\ingested\\train.csv', test_file_path='artifacts\\11_03_2025_16_20_13\\data_ingestion\\ingested\\test.csv')
+[2025-11-03 16:20:45,411] 55 root  - INFO - Initiate the data Validation
+[2025-11-03 16:20:45,475] 35 root  - INFO - Column {'having_IP_Address': 'int64'} is missing in the dataframe
+[2025-11-03 16:20:45,475] 35 root  - INFO - Column {'having_IP_Address': 'int64'} is missing in the dataframe
+[2025-11-03 16:20:45,601] 63 root  - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-11-03 16:20:45,601] 65 root  - INFO - Starting data transformation
+[2025-11-03 16:20:45,666] 48 root  - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[2025-11-03 16:20:45,666] 53 root  - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-11-03 16:20:45,674] 45 root  - INFO - Entered the save_object method of MainUtils class
+[2025-11-03 16:20:45,678] 49 root  - INFO - Exited the save_object method of MainUtils class
+[2025-11-03 16:20:45,678] 45 root  - INFO - Entered the save_object method of MainUtils class
+[2025-11-03 16:20:45,681] 49 root  - INFO - Exited the save_object method of MainUtils class
+[2025-11-03 16:23:49,980] 45 root  - INFO - Entered the save_object method of MainUtils class
+[2025-11-03 16:23:49,986] 49 root  - INFO - Exited the save_object method of MainUtils class
+[2025-11-03 16:23:49,986] 45 root  - INFO - Entered the save_object method of MainUtils class
+[2025-11-03 16:23:50,021] 49 root  - INFO - Exited the save_object method of MainUtils class
+[2025-11-03 16:23:50,021] 151 root  - INFO - Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='artifacts\\11_03_2025_16_20_13\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9912743506493507, precision_score=0.9884662080129503, recall_score=0.994098494098494), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9736632083000798, precision_score=0.9659540775930324, recall_score=0.9814963797264682))
