@@ -1,0 +1,8 @@
+[2025-11-03 10:23:06,099] 148 numexpr.utils  - INFO - Note: NumExpr detected 22 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+[2025-11-03 10:23:06,100] 161 numexpr.utils  - INFO - NumExpr defaulting to 16 threads.
+[2025-11-03 10:23:09,928] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-03 10:23:09,933] 107 dagshub  - INFO - Accessing as arnabdas1999
+[2025-11-03 10:23:10,501] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/arnabdas1999/MLOPS-Project "HTTP/1.1 200 OK"
+[2025-11-03 10:23:11,018] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-03 10:23:11,020] 107 dagshub  - INFO - Initialized MLflow to track repo "arnabdas1999/MLOPS-Project"
+[2025-11-03 10:23:11,020] 107 dagshub  - INFO - Repository arnabdas1999/MLOPS-Project initialized!
