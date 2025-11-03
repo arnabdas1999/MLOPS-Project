@@ -1,0 +1,11 @@
+[2025-11-02 11:10:03,417] 148 numexpr.utils  - INFO - Note: NumExpr detected 22 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+[2025-11-02 11:10:03,417] 161 numexpr.utils  - INFO - NumExpr defaulting to 16 threads.
+[2025-11-02 11:10:05,229] 14 root  - INFO - Starting data ingestion
+[2025-11-02 11:10:13,995] 59 root  - INFO - Performed train test split on the dataframe
+[2025-11-02 11:10:13,995] 60 root  - INFO - exited the split_data_as_train_test method of Data Ingestion class
+[2025-11-02 11:10:13,995] 63 root  - INFO - exporting train and test file path
+[2025-11-02 11:10:14,034] 66 root  - INFO - exported train and test file path
+[2025-11-02 11:10:14,034] 17 root  - INFO - Data ingestion completed
+[2025-11-02 11:10:14,113] 35 root  - INFO - Column {'having_IP_Address': 'int64'} is missing in the dataframe
+[2025-11-02 11:10:14,113] 35 root  - INFO - Column {'having_IP_Address': 'int64'} is missing in the dataframe
+[2025-11-02 11:10:14,207] 21 root  - INFO - Data validation completed

@@ -1,0 +1,27 @@
+[2025-11-02 20:28:14,457] 148 numexpr.utils  - INFO - Note: NumExpr detected 22 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 16.
+[2025-11-02 20:28:14,457] 161 numexpr.utils  - INFO - NumExpr defaulting to 16 threads.
+[2025-11-02 20:28:18,626] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-02 20:28:18,633] 107 dagshub  - INFO - Accessing as arnabdas1999
+[2025-11-02 20:28:19,159] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/repos/arnabdas1999/MLOPS-Project "HTTP/1.1 200 OK"
+[2025-11-02 20:28:19,644] 1025 httpx  - INFO - HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-11-02 20:28:19,647] 107 dagshub  - INFO - Initialized MLflow to track repo "arnabdas1999/MLOPS-Project"
+[2025-11-02 20:28:19,647] 107 dagshub  - INFO - Repository arnabdas1999/MLOPS-Project initialized!
+[2025-11-02 20:28:20,030] 16 root  - INFO - Starting data ingestion
+[2025-11-02 20:28:24,019] 59 root  - INFO - Performed train test split on the dataframe
+[2025-11-02 20:28:24,020] 60 root  - INFO - exited the split_data_as_train_test method of Data Ingestion class
+[2025-11-02 20:28:24,020] 63 root  - INFO - exporting train and test file path
+[2025-11-02 20:28:24,062] 66 root  - INFO - exported train and test file path
+[2025-11-02 20:28:24,063] 19 root  - INFO - Data ingestion completed
+[2025-11-02 20:28:24,156] 35 root  - INFO - Column {'having_IP_Address': 'int64'} is missing in the dataframe
+[2025-11-02 20:28:24,157] 35 root  - INFO - Column {'having_IP_Address': 'int64'} is missing in the dataframe
+[2025-11-02 20:28:24,254] 23 root  - INFO - Data validation completed
+[2025-11-02 20:28:24,254] 63 root  - INFO - Entered initiate_data_transformation method of DataTransformation class
+[2025-11-02 20:28:24,254] 65 root  - INFO - Starting data transformation
+[2025-11-02 20:28:24,322] 48 root  - INFO - Entered get_data_trnasformer_object method of Trnasformation class
+[2025-11-02 20:28:24,323] 53 root  - INFO - Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-11-02 20:28:24,332] 45 root  - INFO - Entered the save_object method of MainUtils class
+[2025-11-02 20:28:24,335] 49 root  - INFO - Exited the save_object method of MainUtils class
+[2025-11-02 20:28:24,335] 45 root  - INFO - Entered the save_object method of MainUtils class
+[2025-11-02 20:28:24,337] 49 root  - INFO - Exited the save_object method of MainUtils class
+[2025-11-02 20:28:24,339] 29 root  - INFO - Data transformation completed
+[2025-11-02 20:28:24,339] 30 root  - INFO - Model Training sstared
